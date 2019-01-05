@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+<style>
+    * {box-sizing: border-box;}
+
+/* Set height of body and the document to 100% */
+body, html {
+    background-image:url("RMS_Color.svg");
+    background-size: 5000px;
+    height: 2200px;
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 90px 20px;
+    height: 100%;
+}
+
+#Home {background-color: darkgrey; height: auto;}
+#News {background-color: darkgrey; height: auto;}
+#Contact {background-color:darkgrey; height: auto;}
+#About {background-color: darkgrey; height: auto;}
+
+</style>
+</head>
+<body>
+<link rel="stylesheet" href="/Mainframe/Nav_Bar.css">
+<ul class="nav">
+  <li><a href="/Mainframe/Main_Script.html">Homepage</a></li>
+  <li><a class="active" href="/Mainframe/Blog.html">Blog</a></li>
+  <li><a href="/Mainframe/Images_and_Videos.html">Pictures & Videos</a></li>
+    <li><a href="/Mainframe/About_Us.html">About Us</a></li>
+  <li><a href="/Mainframe/Contact_us.html">Contact Us</a></li>
+  <img align="right" src="/Pictures/Logo.png" alt="Logo" width="48" height="45">
+</ul>
+
+<button class="tablink" onclick="openPage('Home', this, 'darkgrey')">Blog</button>
+<button class="tablink" onclick="openPage('News', this, 'darkgrey')" id="defaultOpen">#ThisIsRise</button>
+<button class="tablink" onclick="openPage('Contact', this, 'darkgrey')">Contact</button>
+<button class="tablink" onclick="openPage('About', this, 'darkgrey')">About</button>
+
+<div id="Home" class="tabcontent">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+</style>
+<link rel="stylesheet" href="/Mainframe/Blogbutbetter.css">
+<link rel="stylesheet" href="/Mainframe/Nav_Bar.css">
+<link rel="stylesheet" href="/Mainframe/backround.css">
+</head>
+<body>
+
+<div class="header">
+  <h2>Ranson IB Middle Schools Blog</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>National Student Walkout</h2></h2>
+      <h5>#NeverAgain/ National student walkout for the victims of the Parkland, Florida school shooting, March 14, 2018.</h5>
+      <div class="fakeimg" style="height:690px;"><img src="RMS_group_pic.jpg" /></div>
+      <p>Our scholars organized a beautiful walkout demonstration to honor the victims of the Parkland, FL school shooting! Each grade level walked outside and released 17 balloons to commemorate the 17 victims.</p>
+      <p>Shout out to Ms. Rawald, Student Council advisor, for serving as the staff liaison and working incredibly hard to bring the vision of our scholars to life!</p/>
+        <p>#ItsaMovement</p>
+        <p>#ThisisRISE</p>
+        <p>#NationalStudentWalkout</p>
+          
+    </div>
+    <div class="card">
+      <h2>Puerto Rico Hurricane Relief</h2>
+      <h5>Students from Ranson IB Middle School traveled to Puerto Rico to expierence and see first-hand the effects of Hurricane Maria, June 4, 2018.</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Today we went to Antilles Middle School on the military base. They learned how to draw a three tiered cake with shading. They also heard first hand the effects hurricane Maria had on children their own ages.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Ranson</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Ranson IB Middle</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div>
+    </div>
+    <div class="card">
+      <h3>Follow Ranson</h3>
+      
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
+
+</div>
+
+<div id="News" class="tabcontent">
+  <h3>#ThisIsRise</h3>
+  <p>Welcome to the #ThisIsRise section of Ranson IB Middle Schools Blog. Here are some of the current event happening at Ranson:</p> 
+  
+  <h4>March 14, 2018, #NeverAgain/ National Student Walkout.</h4>
+   
+<style>
+img {
+    width:100%;
+}
+</style>
+<img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/29178949_1432571773521415_6410483352092016640_n.jpg?_nc_cat=0&oh=e4cba281243fdb2c386b0d208602fb6e&oe=5BE638BF" alt="HTML5 Icon" style="width:300px;height:200px;">
+<style>
+img {
+    width:100%;
+}
+</style>
+<img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/29196256_1432571956854730_3398558907805728768_n.jpg?_nc_cat=0&oh=bf60e57162c1ca87b3ded6ab50c259a0&oe=5BA5B516" alt="HTML5 Icon" style="width:280px;height:200px;">
+<style>
+img {
+    width:100%;
+}
+
+</style>
+<img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/29249423_1432571630188096_8119754403163930624_n.jpg?_nc_cat=0&oh=c7fe8a5ecb6d09d07ca92b3168d63b6b&oe=5BAE75CA" alt="HTML% Icon" style="width:300px;height:200px;">
+   
+<p>Our scholars organized a beautiful walkout demonstration to honor the victims of the Parkland, FL school shooting! Each grade level walked outside and released 17 balloons to commemorate the 17 victims.</p>
+
+<p>Shout out to Ms. Rawald, Student Council advisor, for serving as the staff liaison and working incredibly hard to bring the vision of our scholars to life!</p>
+
+<p>#ItsaMovement
+#ThisisRISE
+#NationalStudentWalkout</p>
+  
+  <h4>May 16, Staff Spirit Week.</h4>
+  
+   <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/29541570_1442053382573254_6860197312274617489_n.jpg?_nc_cat=0&oh=dcdcb6c00cd3b6e5111ec3036cbf48e4&oe=5B9F8AC2" alt="Girl in a jacket" style="width:360px;height:200px;">
+   <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/29597556_1442053049239954_683605933813786770_n.jpg?_nc_cat=0&oh=d0dc91e4745e9fefc84449524a82e6e6&oe=5BABAC95" alt="Girl in a jacket" style="width:310px;height:200px;">
+   <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/29511405_1442053329239926_2016768062819367394_n.jpg?_nc_cat=0&oh=70c3b30bc59206b240060a80bb107414&oe=5BE96E4E" alt="Girl in a jacket" style="width:260px;height:200px;">
+  
+  <p>The last 5 days before spring break, it is tradition at Ranson IB for staff to have a little fun with Staff Spirit Week. It's slightly a competition as the last day is always "Grade Level Pride Day" and the grade level with the best spirit is crowned!
+
+Day 1 and day 2 of staff Spirit Week brought the 90s and Wacky Tacky Day! Check out pictures!
+
+Stay tuned for the staff spirit that's to come!!</p>
+
+<p>#ItsaMovement</p>
+<p>#ThisisRISE</p>
+
+<h4>June 4, Hurricane Relief Trip</h4>
+
+<img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/34509116_1512941765484415_2554433336894291968_n.jpg?_nc_cat=0&oh=5ae5923475091dbe4bac3145743d5cb9&oe=5BAA761D" alt="Girl in a jacket" style="width:370px;height:300px;">
+<img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/34343808_1511024319009493_2355038625479000064_n.jpg?_nc_cat=0&oh=82ccf46db987c243a6cf582b033463dc&oe=5BEAB4A1" alt="Girl in a jacket" style="width:410px;height:300px;">
+<img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/34454766_10216382844114334_8504270803561349120_n.jpg?_nc_cat=0&oh=70a2212a24cf3c1560cb71900e71d1d1&oe=5BAC3D1D" alt="Girl in a jacket" style="width:410px;height:300px;">
+
+<p>This week 15 Ranson IB scholars are in Puerto Rico for a hurricane relief trip. Check out this picture of 7th grade scholar Aaron taking in some Puerto Rican sun rays!</p>
+
+<p>At the end of each day scholars write a reflection. Here is what Aaron shared in his reflection from yesterday....</p>
+
+<p>"There are still people on the island that don't have power, water, or even a roof over their head. I also realized that all the stuff people have been through they still stay positive and humble about their surroundings. I love Puerto Rico so much! I low key want to move here!"</p>
+
+<h4>June 9, 8th Grade Final Farewell Walk.</h4>
+
+<img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/34669892_1516353215143270_2130472450771648512_n.jpg?_nc_cat=0&oh=1f4bdf13ae722658cb7759e1cefcd9c6&oe=5BE1AC99" alt="Girl in a jacket" style="width:370px;height:300px;">
+<img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/34818863_1516349038477021_2071394535665041408_n.jpg?_nc_cat=0&oh=6fedd795bf7bac1240080cb774cc7ea0&oe=5BA47A19" alt="Girl in a jacket" style="width:400px;height:300px;">
+<img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/34790145_1516349088477016_7397265892372905984_n.jpg?_nc_cat=0&oh=656babeaeec1302574e5e5d933666105&oe=5B9FE09A" alt="Girl in a jacket" style="width:400px;height:300px;">
+
+<p>Yesterday was the last day of school and we honored our 8th graders on their last day of middle school with a Final Farewell Walk. 8th graders scholars walked the building one last time representing the high school they are attending next year. Staff, 6th and 7th grade scholars were in the hallways cheering them on as a reminder that Ranson IB is your community and we are forever proud of you!</p>
+
+<p>Check out our scholars representing their high school right before their walk!</p>
+<p>#ItsaMovement</p>
+<p>#ThisisRISE</p>
+
+
+
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 90%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="http://opportunityculture.org/wp-content/uploads/2017/12/Miles-with-student-238x300.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Bobby Miles</h2>
+        <p class="title">6th Grade Assistant Principal</p>
+        <p>Bobby Miles is the 6th grade assistant principal. Contact him for any information concerning your 6th grade scholar at:</p>
+        <p>bobby.miles@cms.k12.nc.us</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="http://schools.cms.k12.nc.us/ransonMS/PublishingImages/MonicaPit.png" alt="Mike" style="width:70%">
+      <div class="container">
+        <h2>Monica Pitt</h2>
+        <p class="title">7th Grade Assistant Principal</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>monica1.pitt@cms.k12.nc.us</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="http://schools.cms.k12.nc.us/ransonMS/SiteAssets/Pages/AdministrationCorner/Weddington.jpg" alt="John" style="width:80%">
+      <div class="container">
+        <h2>Angela Weddington</h2>
+        <p class="title">8th Grade Assistant Principal</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>angela.weddington@cms.k12.nc.us</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <p>Through this page you will be in contact with the schools phone number and address and others such as counselors and assistant principals.</p>
+
+  
+  <p>Phone: 980-343-6800</p> <p>This the phone number:</p>
+    <a href="tel:+9803436800">980-343-6800</a>
+<p>This is the fax:</p>
+<a href="tel:+ 980-343-9796"> 980-343-9796</a>
+</p>
+<p> Contact Information for the school:</p>
+<p><a href="https://www.instagram.com/ransonibmiddleschool/">Ranson Instagram</a></p>
+ <p><a href="https://www.facebook.com/RansonIB/">Ranson Facebook<a/></p>
+ <p><a href="https://twitter.com/ransonibms?lang=en">Ranson twitter</a></p>
+  
+  <p><a href="mailto:s shanniska.smith@cms.k12.nc.us?Subject=Contact%20us"  target="_top">Ms. Shanniska Howard (IB Coordinator)</a></p>
+  
+  <p><a href="mailto:s shanniska.smith@cms.k12.nc.us?Subject=Contact%20us"  target="_top">Ms. Shanniska Howard (IB Coordinator)</a></p>
+  
+  <p><a href="mailto:s lasonya.frazier@cms.k12.nc.us?Subject=Contact%20us"  target="_top"> Ms. Laysonya Fraizer Email (6th Grade Counselor)</a></p>
+  
+  <p><a href="mailto:s tamekas.johnson@cms.k12.nc.us?Subject=Contact%20us"  target="_top"> Ms. Tamekas Johnson Email (7th Grade Counselor)</a></p>
+
+<p><a href="mailto:s olivette.myers@cms.k12.nc.us?Subject=Contact%20us"   target="_top">Ms. Olivette Myers Email (8th Grade Counselor)</a></p>
+
+<p><a href="mailto:s  jon1.rochester@cms.k12.nc.us?Subject=Contact%20us"  target="_top">Mr. Jon Rochester Email (Social Worker)</a></p>
+<p><a href=<a href="mailto:s karen.sutton@cischarlotte.org?Subject=Contact%20us"  target="_top">Ms. Karen Sutton Email(CIS coordinator)</a></p>
+
+<p><a href=" ransonmiddle@cms.k12.nc.us?Subject=Contact%20us" target="_top">Email Ranson</a></p>
+<p><a href</p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>About</h3>
+  <p>This is Ranson IB Middle Schools Blog. Here we offer daily news to students and parents of student attending Ranson. Here you can check up on current, past, and upcoming events and things to  look forward to during your time here.</p>
+  
+  <h4>Ranson IB's Vision</h4>
+<p>Building Power with Communities</p>
+ 
+<h4>Ranson IB's Mission</h4>
+<p>Ranson IB is a passionate community that is student centered,
+building leaders who are globally prepared agents of social change.</p>
+  
+<h4>Ranson IB Core Beliefs</h4>
+<p>We are radical. We are bold. We take pride in being us. We do not
+operate out of fear. We believe in simple processes that make
+incredible gains. We consider all the choices to find a decision we
+are passionate about. We believe all persons are valuable. We
+believe in team and the common good of everyone. We teach and
+take responsibility of all our scholars. We believe all scholars can
+learn. We do not give up.</p>
+
+    
+<h3>Ranson Middle, an International Baccalaureate World School</h3>
+ <h4> 2017-2018 Uniform Expectations</h4>
+<p>Ranson IB will continue to be a uniform school for the 2017-2087 school year.  All Ranson IB Scholars are expected to adhere the following uniform expectations every day.</p>
+
+<h4>Tops</h4>
+
+<p>Polo-style shirts with a collar that are your grade level colors must be worn daily. Shirts cannot have logos or writing.</p>
+
+<p>All shirts should stop at the waist or must be tucked in.</p>
+
+<p>T-shirts cannot be worn on top of polo-style shirts.</p>
+
+<p>Sweatshirts, sweaters, cardigans, jackets, turtlenecks, long-sleeve shirts under polo-style shirt or pull-overs must be the same color as grade level shirt color.</p>
+
+<h4>Bottoms</h4>
+
+<p>Khaki pants, capris, finger-tip length shorts or skirts are acceptable. Camouflage is not acceptable.</p>
+
+<p>Colored/Lace leggings and fishnet stockings are not acceptable.</p>
+
+<h4>Shoes/ Accessories</h4>
+
+<p>Any color lace up, buckle up, athletic shoe or sandals with an ankle strap are acceptable.</h4>
+
+<h4>Hats and hoods are not permitted to be worn on campus at any time. Hats should be placed in book bags and are not to be hung on the waist. Scholars may only wear headgear for religious reasons as noted by a parent to the Grade Level Administrator.<h4>
+
+<h4>Please note: Throughout the school year, scholars will be rewarded with Dress Down Days. Dress Down Days may be earned by scholars as rewards for excellent behavior and/or academic excellence. Scholars and Parents/ Guardians will be notified of Dress Down Days in advance.</h4>
+
+
+<h4>Scholars who choose to violate the uniform expectations in any way will receive the following consequences including, but not limited to- required Parent Conference, in-school suspension, out-of-school suspension, as well as loss of privileges throughout the school year.</h4>
+  
+  <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="504" id="gmap_canvas" src="https://maps.google.com/maps?q=ranson%20middle%20school&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.webdesign-muenchen-pb.de"></a></div><style>.mapouter{text-align:right;height:504px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:504px;width:600px;}</style></div>
+  
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+    
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+</script>
+     
+</body>
+</html> 

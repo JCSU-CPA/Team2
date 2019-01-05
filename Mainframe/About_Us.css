@@ -1,0 +1,36 @@
+body  {
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size:cover;
+    background: linear-gradient(#5bd75b, #3385ff) fixed;
+     
+}
+
+div.transbox1 {
+  margin: .1px;
+  background-color: #aad4d4;
+  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
+  width: 11%;
+    
+}
+div.transbox2 {
+  margin: .1px;
+  background-color: #aad4d4;
+  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
+  width: 50%;
+    
+}
+div.transbox3 {
+  margin: .1px;
+  background-color: #aad4d4;
+  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
+  width: 35%;
+    
+}

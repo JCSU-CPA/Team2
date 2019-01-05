@@ -1,0 +1,106 @@
+/*Background Image Stuff*/
+body  {
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size:cover;
+    background: linear-gradient(#5bd75b, #3385ff) fixed;
+     
+}
+
+
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div.transbox-2 {
+  margin: .1px;
+  background-color: #aad4d4;
+  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
+  width: 36%;
+    
+}
+div.transbox-1 {
+  margin: .1px;
+  background-color: #aad4d4;
+  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
+  width: 12%;
+    
+}
+div.transbox1 {
+  margin: .1px;
+  background-color: #aad4d4;
+  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
+  width: 30%;
+    
+}
+div.transbox2 {
+  margin: .1px;
+  background-color: #aad4d4;
+  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
+  width: 20%;
+}
+div.transbox4 {
+  margin: .1px;
+  background-color: #aad4d4;
+  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
+  width: 38%;
+    
+}
+div.transbox5 {
+  margin: .1px;
+  background-color: #aad4d4;
+  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
+  width: 26%;
+    
+}
+div.transbox6 {
+  margin: .1px;
+  background-color: #aad4d4;
+  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
+  width: 13%;
+    
+}
+div.transbox7 {
+  margin: .1px;
+  background-color: #aad4d4;
+  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
+  width: 20%;
+    
+}
+div.transbox8 {
+  margin: .1px;
+  background-color: #aad4d4;
+  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
+  width: 20%;
+    
+}
+div.transbox p {
+  margin: 1%;
+  font-weight: bolder;
+  color: #ffffff;
+}

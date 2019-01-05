@@ -1,0 +1,121 @@
+* {box-sizing: border-box;}
+
+/* Set height of body and the document to 100% */
+body, html {
+    background-image:url("RMS_Color.svg");
+    background-size: 5000px;
+    height: 2200px;
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+#Home {background-color: darkgrey; height: auto;}
+#News {background-color: darkgrey; height: auto;}
+#Contact {background-color:darkgrey; height: auto;}
+#About {background-color: darkgrey; height: auto;}
+</style>
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Home', this, 'darkgrey')">Blog</button>
+<button class="tablink" onclick="openPage('News', this, 'darkgrey')" id="defaultOpen">#ThisIsRise</button>
+<button class="tablink" onclick="openPage('Contact', this, 'darkgrey')">Contact</button>
+<button class="tablink" onclick="openPage('About', this, 'darkgrey')">About</button>
+
+<div id="Home" class="tabcontent">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}

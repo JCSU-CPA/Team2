@@ -1,0 +1,8 @@
+body  {
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size:cover;
+    background: linear-gradient(#5bd75b, #3385ff) fixed;
+     
+}

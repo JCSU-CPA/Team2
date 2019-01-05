@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ranson Middle_School Homepage
+</title>
+
+}
+</style>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+    
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+        background-color: #4CAF50;
+}
+</style>
+
+
+</head>
+<center>
+<i>alpha 0.3.0</i>
+<body>
+   <ul>
+  <li><a class="active" href="/Mainframe/Main_Script.html">Homepage</a></li>
+  <li><a href="/Mainframe/Temporary_Button_Page.html">Blog</a></li>
+  <li><a href="/Mainframe/Images_and_Videos.html">Images and Videos</a></li>
+  <li><a href="/School_Help.html">Assistance</a></li>
+  <li><a href="/Mainframe/About_Us.html">About</a></li>
+  <img align="right" src="/Pictures/Logo.png" alt="Logo" width="48" height="45">
+</ul>
+<h1>Welcome to the Ranson IB homepage</h1>  <br> <b><font face="Comic sans MS": size="5" center'>"Homepage"</font> </b> </br>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"
+</br>
+
+
+<p>This is a homepage for the Ranson Middle school IB program</p> 
+<br>
+<img src="/Pictures/Logo.png" alt="Logo" width="300" height="300">  
+<p>If you wish to submit a post, send it to this email "Example Email"
+
+</br>
+
+</p>
+
+    <br>
+
+    <h2>The Homepage of Ranson Middle School has just opened</h2>
+        <img src="/Pictures/Ranson_enter.png" alt="Ranson_enter" border="2" width="500" height="400" box-shadow="10px 10px;">
+    <h2>This Picture Is Of The <mark>School Entrance</mark></h2>
+
+
+<div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=5850%20Statesville%20Rd%2C%20Charlotte%2C%20NC%2028269&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.webdesign-muenchen-pb.de">webdesign-muenchen-pb.de</a></div><style>.mapouter{text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+    </center>
+    <center>
+    <div align="left">
+        <h1>Featured Videos!!</h1>
+        </div>
+     <iframe width="400" height="300" src="https://www.youtube.com/embed/-kkKAka4XSc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <iframe width="400" height="300" src="https://www.youtube.com/embed/IiQMgKOh8e4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><iframe width="400" height="300" src="https://www.youtube.com/embed/obuZ_AUiehU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <iframe width="400" height="300" src="https://www.youtube.com/embed/IosyOFZMX68" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </center>
+    <br>
+<style>
+#Ranson_Homepage{
+    background-color: yellow;
+    color: black;
+    padding: 35px;
+    text-align: center;
+} 
+    </style>
+
+<h1 id="Ranson_Homepage">Ranson Homepage</h1>
+<link rel="stylesheet" href="E.css">
+
+<ul> 
+  <li><a href="https://www.facebook.com/RansonIB/">Ranson Facebook</a></li>
+  <li><a href="https://www.instagram.com/explore/locations/738370252/ranson-middle/?hl=en">Ranson Instagram</a>
+  <li><a href="https://twitter.com/RansonIBMS?lang=en">Ranson Twitter</a></li>
+</ul>
+
+<h1>The Calendar</h1>
+<a href="/Mainframe/Calendar.html">Calendar!</a>
+
+        <!--I put a Copyright Symbol-->
+<h2>Contact Us!</h2>
+        <p>Phone: 980-343-6800|Fax: 980-343-6796</p>
+    <i>Email: ransonmiddle@cms.k12.nc.us.</i>
+            <h2>**Uniform Policy**</h2>
+<p>*Polo-style shirts with a collar that are your grade level colors must be worn daily</p>
+    <p>*All shirts should stop at the waist or must be tucked in</p>
+<p>*T-shirts cannot be worn on top of polo-style shirts</p>
+    <p>*Sweatshirts, sweaters, cardigans, jackets, turtlenecks, long-sleeve shirts under polo-style shirt or pull-overs must be the same color as grade level shirt color</p>
+    <font size="2">(More information on policy on school website)</font>
+    <i>**Scholars who choose to violate the uniform expectations in any way will receive the following consequences including, but not limited to- required Parent Conference, in-school suspension, out-of-school suspension, as well as loss of privileges throughout the school year**<i>
+
+
+<style>
+body {margin:25px;}
+
+.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 2px;
+}
+
+.container {
+  text-align: center;
+  padding: 1px 2px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="polaroid">
+  <img src="/Pictures/Logo.png" alt="W" style="width:10%">
+  <div class="container">
+    <p>C</p>
+  </div>
+</div>
+
+</body>
+</html>

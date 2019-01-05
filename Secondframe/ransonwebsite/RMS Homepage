@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Welcome to Ranson IB Middle School</h2>
+
+<p> </p>
+
+<img src="" alt="Ranson_MS" width="500" height="600">
+
+</body>
+</html>
+
+<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=5850%20Statesville%20Rd%2C%20Charlotte%2C%20NC%2028269&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.webdesign-muenchen-pb.de">webdesign-muenchen-pb.de</a></div><style>.mapouter{text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+
+<h2>Social Media</h2>
+<p><a href="https://www.instagram.com/thisisrise_/?hl=en">Visit our Instagram page: ThisISRISE</a></p>
+
